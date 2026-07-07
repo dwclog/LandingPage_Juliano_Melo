@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halo — O sistema operacional do trabalho moderno</title>
+<meta name="description" content="Halo unifica automação, dados e decisões em uma única camada inteligente. Elegante, invisível, essencial.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Lucide Icons -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lucide-static/0.379.0/umd/lucide.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<!-- Ambient floating background -->
+<div class="ambient" aria-hidden="true">
+  <div class="orb orb--a"></div>
+  <div class="orb orb--b"></div>
+  <div class="orb orb--c"></div>
+  <div class="grain"></div>
+</div>
+
+<!-- Scroll progress indicator -->
+<div class="scroll-indicator" aria-hidden="true"><span class="scroll-indicator__fill"></span></div>
+
+<!-- NAV -->
+<header class="nav" data-reveal>
+  <div class="nav__inner glass">
+    <a href="#top" class="nav__brand">
+      <span class="nav__mark" aria-hidden="true"></span>
+      Juliano Melo
+    </a>
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#beneficios">Serviços</a>
+      <a href="#servicos">Equipamentos</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#faq">Contato</a>
+    </nav>
+    <a href="#cta" class="btn btn--ghost btn--sm">Fale comigo</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  
+
+  <section class="hero" id="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__background glass" data-reveal>
+        <img src="images/dji-mini-4-pro-49.avif" alt="Drone">
+    
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow" data-reveal>piloto de drone</p>
+      <h1 class="hero__title" data-reveal>Filmagens aéreas que revelam <span class="text-gradient">a perspectiva que ninguém vê do chão.</span></h1>
+      <p class="hero__subtitle" data-reveal>
+        Imagens e vídeos em alta qualidade para empresas, fazendas, imóveis, empreendimentos, eventos e campanhas publicitárias.
+      </p>
+      <div class="hero__actions" data-reveal>
+        <a href="#cta" class="btn btn--primary">
+          Solicitar orçamento
+          
+        </a>
+        <a href="#sobre" class="btn btn--secondary">
+          Ver portifólio
+        </a>
+      </div>
+    </div>
+
+    <!--  
+    <div class="hero__stage" data-reveal aria-hidden="true">
+      <div class="mockup glass">
+        <div class="mockup__bar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="mockup__body">
+          <div class="mockup__row mockup__row--pulse"></div>
+          <div class="mockup__grid">
+            <div class="mockup__tile"></div>
+            <div class="mockup__tile"></div>
+            <div class="mockup__tile"></div>
+          </div>
+          <div class="mockup__row"></div>
+          <div class="mockup__row" style="width:70%"></div>
+        </div>
+      </div>
+      <div class="mockup__satellite glass"></div>
+    </div> 
+
+    <a href="#sobre" class="hero__scroll" aria-label="Rolar para a próxima seção">
+      <span></span>
+    </a>-->
+  </section>
+<!-- ================= TRUST STRIP ================= -->
+<div class="strip">
+  <div class="wrap" data=reveal>
+    <span>Casamentos</span>
+    <span>Imóveis &amp; Arquitetura</span>
+    <span>Agronegócio</span>
+    <span>Publicidade</span>
+    <span>Inspeções técnicas</span>
+    <span>Turismo &amp; Natureza</span>
+  </div>
+</div>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>Sobre o Piloto</p>
+      <h2 class="section__title" data-reveal>
+        Técnica de voo, olhar de cinema.
+      </h2>
+      <p class="section__lead" data-reveal>
+        Especializado na produção de imagens e vídeos aéreos para empresas, propriedades rurais, empreendimentos e eventos.
+
+
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card glass" data-reveal data-tilt>
+          <i data-lucide="eye-off"></i>
+          <h3>Precisão em cada voo</h3>
+          <p>Cada captação é planejada para encontrar o melhor enquadramento, a iluminação ideal e os ângulos que valorizam o seu projeto.</p>
+        </div>
+        <div class="about-card glass" data-reveal data-tilt>
+          <i data-lucide="git-branch"></i>
+          <h3>Qualidade que faz diferença</h3>
+          <p>Imagens e vídeos em alta resolução, produzidos com equipamentos modernos para entregar um resultado nítido, profissional e pronto para diversos usos.</p>
+        </div>
+        <div class="about-card glass" data-reveal data-tilt>
+          <i data-lucide="shield-check"></i>
+          <h3>Compromisso do início ao fim</h3>
+          <p>Atendimento próximo, organização em cada etapa e entrega dos arquivos com agilidade para que seu projeto seja apresentado da melhor forma.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS 
+  <section class="section section--tinted" id="beneficios">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>Benefícios</p>
+      <h2 class="section__title" data-reveal>Menos operação.<br>Mais direção.</h2>
+
+      <div class="benefits">
+        <div class="benefit" data-reveal>
+          <span class="benefit__num">Imagens em 4K</span>
+          <p>menos tempo gasto em tarefas operacionais recorrentes</p>
+        </div>
+        <div class="benefit" data-reveal>
+          <span class="benefit__num">Piloto certificado</span>
+          <p>mais rapidez na tomada de decisões orientadas por dados</p>
+        </div>
+        <div class="benefit" data-reveal>
+          <span class="benefit__num">Projetos realizados</span>
+          <p>de disponibilidade garantida em infraestrutura global</p>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>Serviços</p>
+      <h2 class="section__title" data-reveal>Soluções para diferentes <br> tipos de projeto.</h2>
+
+      <div class="services">
+        <article class="service-card glass" data-reveal data-tilt>
+          <div class="hero__background glass" data-reveal>
+            <img src="images/imovel.jpg" alt="Drone">
+    
+          </div>
+          <!--<div class="service-card__icon"><i data-lucide="workflow"></i></div>-->
+          <h3>Empresas</h3>
+          <p>Registre sua empresa com imagens aéreas que reforçam sua presença e destacam sua estrutura.</p>
+        </article>
+        <article class="service-card glass" data-reveal data-tilt>
+          <div class="hero__background glass" data-reveal>
+            <img src="images/campo.jpg" alt="Drone">
+    
+          </div>
+          <h3>Fazendas</h3>
+          <p>Valorize propriedades rurais com registros que mostram toda a dimensão da área.</p>
+        </article>
+        <article class="service-card glass" data-reveal data-tilt>
+          <div class="hero__background glass" data-reveal>
+            <img src="images/predio.jpg" alt="Drone">
+    
+          </div>          
+          <h3>Imóveis</h3>
+          <p>Apresente imóveis com imagens que ajudam o cliente a visualizar todo o potencial do empreendimento.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section section--tinted" id="diferenciais">
+    <div class="section__inner section__inner--split">
+      <div class="split__text">
+        <p class="eyebrow" data-reveal>Diferenciais</p>
+        <h2 class="section__title" data-reveal>Por que escolher Juliano Melo?</h2>
+        <p class="section__lead" data-reveal>
+          Imagens criadas com precisão, simplicidade e qualidade para mostrar seu projeto sob uma nova perspectiva.
+        </p>
+      </div>
+      <ul class="split__list">
+        <li data-reveal>
+          <i data-lucide="sparkles"></i>
+          <div>
+            <h4>Equipamentos profissionais</h4>
+            <p>Captação com drones modernos para imagens de alta definição.</p>
+          </div>
+        </li>
+        <li data-reveal>
+          <i data-lucide="infinity"></i>
+          <div>
+            <h4>Segurança</h4>
+            <p>Operações realizadas com responsabilidade e planejamento.</p>
+          </div>
+        </li>
+        <li data-reveal>
+          <i data-lucide="gauge"></i>
+          <div>
+            <h4>Alta qualidade</h4>
+            <p>Vídeos e fotografias com excelente resolução e acabamento profissional.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="section" id="depoimentos">
+    <div class="section__inner">
+      <p class="eyebrow" data-reveal>Depoimentos</p>
+      <h2 class="section__title" data-reveal>Quem já confiou no nosso trabalho.</h2>
+
+      <div class="testimonials">
+        <figure class="testimonial glass" data-reveal data-tilt>
+          <blockquote>As filmagens ficaram impecáveis, valorizaram nossa estrutura e transmitiram exatamente a imagem profissional que buscávamos.</blockquote>
+          <figcaption>
+            <span class="avatar" aria-hidden="true"></span>
+            <div><strong>Carlos Henrique</strong><span>Empresário</span></div>
+          </figcaption>
+        </figure>
+        <figure class="testimonial glass" data-reveal data-tilt>
+          <blockquote>O atendimento foi excelente, a entrega aconteceu dentro do prazo e a qualidade do material impressionou nossos clientes.</blockquote>
+          <figcaption>
+            <span class="avatar" aria-hidden="true"></span>
+            <div><strong>Mariana Oliveira</strong><span>Corretora de Imóveis</span></div>
+          </figcaption>
+        </figure>
+        <figure class="testimonial glass" data-reveal data-tilt>
+          <blockquote>Contratamos o Juliano para registrar nossa propriedade e ficamos muito satisfeitos com o resultado. </blockquote>
+          <figcaption>
+            <span class="avatar" aria-hidden="true"></span>
+            <div><strong>Ricardo Martins</strong><span>Produtor Rural</span></div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--tinted" id="faq">
+    <div class="section__inner section__inner--narrow">
+      <p class="eyebrow" data-reveal>Perguntas frequentes</p>
+      <h2 class="section__title" data-reveal>Ainda com dúvidas?</h2>
+
+      <div class="faq-list" data-reveal>
+        <details class="faq-item glass">
+          <summary>Quais tipos de serviços você realiza?</summary>
+          <p>Realizo filmagens e fotografias aéreas para empresas, fazendas, imóveis, obras, eventos, hotéis, pousadas e produções para redes sociais.</p>
+        </details>
+        <details class="faq-item glass">
+          <summary>Em quais cidades você atende?</summary>
+          <p>Atendo em todo o Mato Grosso do Sul e também posso realizar trabalhos em outras regiões mediante agendamento.</p>
+        </details>
+        <details class="faq-item glass">
+          <summary>Em quanto tempo recebo o material?</summary>
+          <p>O prazo de entrega varia conforme o projeto, mas sempre é informado antes do início do serviço.</p>
+        </details>
+        <details class="faq-item glass">
+          <summary>As imagens são entregues em alta qualidade?</summary>
+          <p>Sim. Todo o material é entregue em alta resolução, pronto para uso em redes sociais, apresentações, sites e materiais publicitários.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="cta">
+    <div class="cta__glow" aria-hidden="true"></div>
+    <div class="cta__inner glass" data-reveal>
+      <h2>Pronto para destacar <br> seu projeto?</h2>
+      <p>Conte com imagens aéreas profissionais para apresentar seu negócio, propriedade ou evento com mais impacto e qualidade.</p>
+      <div class="cta__actions">
+        <a href="#" class="btn btn--primary">
+          Entre em contato
+          
+        </a>
+        
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="nav__mark" aria-hidden="true"></span>
+      <span>Halo</span>
+    </div>
+    <nav class="footer__links" aria-label="Links do rodapé">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#faq">FAQ</a>
+      <a href="#">Privacidade</a>
+      <a href="#">Termos</a>
+    </nav>
+    <div class="footer__social" aria-label="Redes sociais">
+      <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+      <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+    </div>
+  </div>
+  <p class="footer__legal">© 2026 Halo Systems, Inc. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lenis/1.1.13/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
